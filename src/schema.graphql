@@ -1,0 +1,9 @@
+type History @model {
+  id: ID!
+  user_id: String
+  name: String!
+  vist_time: String!
+  live_photo_url: String!
+  resume_photo_url: String!
+  resume: String
+}
